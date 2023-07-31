@@ -1,21 +1,13 @@
-# co6d6447980497dd5775ab78d
+# Poetic Phrase Generator
 
-Quick start:
+Created an AI-generated phrase and background image webpage.The page is powered by a custom JavaScript module, which leverages AI technology to generate inspiring and creative quotes based on user-provided information.
 
-```
-$ npm install
-$ npm start
-````
+## How It Works
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+Personalization: You can personalize the quote by changing the values of certain variables. Modify the name variable to your name, the favoriteActivity variable to your favorite activity, and the favoritePlace variable to your most beloved place.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+AI Configuration: The AI has a unique feature that allows you to set a "temperature" parameter ranging from 0 to 1. A higher temperature makes the output more random and experimental, while a lower temperature results in more coherent and structured quotes.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+Fetching Phrase & Image: Once you have configured the AI, click the button to generate a new quote and image. The page will display a loading spinner while the AI fetches the data.
 
-Happy Coding!
+Presentation: The generated poetic quote and a corresponding image will be presented beautifully in the center of the page. Additionally, your name and an avatar image (which you can replace with your own photo) will be displayed to personalize the experience further.
